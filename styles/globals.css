@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.home1,.home2{
+    background-image: url(https://nftify-platform.s3.ap-southeast-1.amazonaws.com/banner/62d170f22994a0bed7213b80-1658926123797.jpg);
+    background-repeat: no-repeat;
+    /* background-position: cover; */
+    background-size: cover;
+}
+
+input{
+    background-color: gery;
+}
+
+.header{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.logo{
+    flex: 50%;
+}
+
+.links{
+    flex: 50%;
+}
+
+.logo img{
+    float: left;
+    width: 4rem;
+}
+
+
+
+.links .link{
+    /* float: right; */
+    color: white;
+    align-items: right;
+    text-align: right;
+    margin-top: 1.5rem;
+}
+
+.links .link a{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
